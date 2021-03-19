@@ -2,7 +2,6 @@ using System;
 
 namespace CarLotSimulator
 {
-
     public class Car
     {
         //*************BONUS*************//
@@ -31,7 +30,6 @@ namespace CarLotSimulator
         {
             Console.WriteLine(EngineNoise);
         }
-
         public void MakeHonkNoise(string honkNoise)
         {
             Console.WriteLine(HonkNoise);

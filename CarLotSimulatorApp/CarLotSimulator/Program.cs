@@ -14,7 +14,7 @@ namespace CarLotSimulator
             //Set the properties for each of the cars
 
             //*************BONUS*************//
-            // Set the properties utilizing the 3 different ways we learned about, one way for each car
+            //Set the properties utilizing the 3 different ways we learned about, one way for each car
 
             //Dot notation method
             var patsCar = new Car();
@@ -25,7 +25,7 @@ namespace CarLotSimulator
             patsCar.HonkNoise = "beep";
             patsCar.IsDriveable = true;
 
-            //adding patsCar to carLot
+            //Adding patsCar to carLot
             lot.Cars.Add(patsCar);
 
             //Object initializer method
@@ -39,14 +39,14 @@ namespace CarLotSimulator
                 IsDriveable = true
             };
 
-            //adding khyresCar to carLot
+            //Adding khyresCar to carLot
             lot.Cars.Add(khyresCar);
 
             //Constructor method
             var sarahsCar = new Car(2018, "Honda", "Accord", "vroom vroom",
                 "honk honk", true);
 
-            //adding sarahsCar to carLot
+            //Adding sarahsCar to carLot
             lot.Cars.Add(sarahsCar);
 
             //Call each of the methods for each car
