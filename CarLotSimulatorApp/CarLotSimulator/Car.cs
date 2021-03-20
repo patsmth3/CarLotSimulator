@@ -2,10 +2,16 @@ using System;
 
 namespace CarLotSimulator
 {
+  
     public class Car
     {
         //*************BONUS*************//
         // Set the properties utilizing the 3 different ways we learned about, one way for each car
+        
+        public Car()
+        {
+            
+        }
         public Car(int year, string make, string model, string engineNoise, string honkNoise, bool isDriveable)
         {
             Year = year;
